@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-general{
+    background-image: url(../img/bg1.svg), url(../img/bg2.svg);
+    background-position: left top, right bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+.home{
+    min-height: calc(100vh - 40px);
+}
+.nosotros {
+    height: 100vh;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+footer {
+    background-color:#BDC3C7;
+}
