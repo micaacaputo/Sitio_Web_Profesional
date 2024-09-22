@@ -16,6 +16,10 @@
 .nosotros {
     height: 100vh;
 }
+.nosotros-title {
+    color: #2C3E50 ;
+    margin: 20px 0px;
+}
 main {
     display: flex;
     flex-direction: column;
