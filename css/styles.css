@@ -8,10 +8,10 @@
     background-position: left top, right bottom;
     background-size: auto;
     background-repeat: no-repeat;
-
 }
 .home{
-    min-height: calc(100vh - 40px);
+    height: 100vh;
+    padding-top: 150px;
 }
 .nosotros {
     height: 100vh;
@@ -20,12 +20,11 @@
     color: #2C3E50 ;
     margin: 20px 0px;
 }
-main {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
 
 footer {
     background-color:#BDC3C7;
+}
+
+.img-home{
+    width: 30%;
 }
