@@ -3,85 +3,101 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .bg-general{
     background-image: url(../img/bg1.svg), url(../img/bg2.svg);
     background-position: left top, right bottom;
     background-size: auto;
     background-repeat: no-repeat;
 }
+
+/*NAV*/
+.nav-link.active {
+    position: relative;
+    font-weight: 600;
+    padding-bottom: 5px;
+  }
+  
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%; 
+    height: 2px;
+    background-color: #fff;
+    padding-bottom: 0;
+    margin: 0;
+}
+.img-navbar{
+    margin-left: 15px;
+ }
+
+/*HOME*/
 .home{
     padding-top: 150px;
     padding-bottom: 111px;
 }
-.nosotros {
-    padding-top: 80px;
-    padding-bottom: 20px;
-}
-.nosotros-title {
-    color: #2C3E50 ;
-    margin: 20px 0px;
-}
-
-footer {
-    background-color:#BDC3C7;
-}
-
 .img-home{
     width: 25%;
 }
 .home-custom{
     margin: 0 170px;
 }
+
+/*NOSOTROS*/
+.contenedor-centrado{
+    min-height: calc(100vh - 235px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nosotros {
+    padding-top: 80px;
+}
+.nosotros-title {
+    color: #2C3E50 ;
+    margin: 40px 0px -20px 0px;
+    font-weight: 700;
+}
 .card-size {
-    width: 30rem;
+    width: 100%;
+    padding: 60px;
 }
 .img-icon{
+    margin-bottom: 5px;
     margin-right: 5px;
+    width: 12%;
+}
+.margin-card-custom{
+    margin-right: 23px;
+}
+.card-img-top{
+    width: 60%;
+}
+.card-custom{
+    border: 0;
+    width: 18rem;
+}
+
+.container-nosotros{
+    padding: 0 200px;
+}
+
+/*FOOTER*/
+footer {
+    background-color:#BDC3C7;
 }
 .img-footer{
-    width: 3%;
+    width: 50%;
+    padding: 8px;
     margin-top: 5px;
 }
-.img-navbar{
-   margin-left: 15px;
+.footer-margin{
+    margin-left: 400px;
 }
 
-/*RESPONSIVE*/
-@media (max-width: 768px) {
-    .home-custom{
-        margin: 0;
-    }
-    .bg-general{
-        background-size: 200px, 200px;
-    }
-}
 
-@media (max-width: 576px) {
-    .home-custom{
-        margin: 0;
-    }
-    .img-home{
-        width: 50%;
-    }
-    .home{
-        padding-top: 120px;
-        padding-bottom: 50px;
-    }
-    .card-size {
-        width: 20rem;
-    }
-    .img-icon{
-        margin-right: 0px;
-        margin-top: 5px;
-    }
-    .bg-general{
-        background-size: 150px, 150px;
-    }
-    .img-footer{
-        width: 20%;
-    }
-    .img-navbar{
-        margin-left: 5px;
-     }
-    
-}
+
+
