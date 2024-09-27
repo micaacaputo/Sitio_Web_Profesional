@@ -1,5 +1,77 @@
 /*RESPONSIVE*/
-@media (max-width: 768px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container-nosotros {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 90px;
+    }
+    .card-custom {
+        width: 100%;
+    }
+    .card-img-top{
+        width: 40%;
+    }
+    .img-icon{
+        margin-right: 2px;
+        width: 5%;
+    }
+    .card-size{
+        padding: 40px;
+    }
+    .footer-margin{
+        margin-left: 200px;
+    }
+    .contenedor-centrado{
+        min-height: calc(100vh - 217px);
+    }
+    .nav-link.active::after {
+        display: none;  
+    }
+    .card-custom{
+        padding: 1rem 0;
+    }
+    .nosotros-title {
+        margin: 15px 0 15px 0;
+    }
+  }
+  
+  
+  @media (min-width: 1025px) and (max-width: 1561px) {
+    .container-nosotros {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 150px;
+    }
+    .card-custom {
+        width: 100%;
+    }
+    .card-img-top{
+        width: 60%;
+    }
+    .img-icon{
+        margin-right: 2px;
+        width: 10%;
+    }
+    .card-size{
+        padding: 30px;
+    }
+    .footer-margin{
+        margin-left: 200px;
+    }
+    .contenedor-centrado{
+        min-height: calc(100vh - 217px);
+    }
+    .nosotros-title {
+        margin: 15px 0 15px 0;
+    }
+    .card-custom{
+        padding: 1rem 0;
+    }
+  }
+
+@media (min-width: 577px) and (max-width: 768px) {
     .home-custom{
         margin: 0;
     }
@@ -13,17 +85,20 @@
         display: none;  
     }
     .img-footer{
-        width: 100px;
+        width: 150px;
+    }
+    .img-icon{
+        margin-right: 2px;
+        width: 5%;
     }
     .card-size {
         padding: 10px;
     }
     .nosotros-title {
         margin: 15px 0 15px 0;
-        font-weight: 700;
     }
     .card-custom{
-        padding: 1.5rem 0;
+        padding: 1rem 0;
     }
     .container-nosotros {
         display: flex;
@@ -35,7 +110,7 @@
         width: 100%;
     }
     .card-img-top{
-        width: 40%;
+        width: 30%;
     }
 }
 
@@ -68,7 +143,6 @@
     }
     .nosotros-title {
         margin: 10px 0 10px 0;
-        font-weight: 700;
     }
     .card-custom{
         padding: 1rem 0;
@@ -84,6 +158,9 @@
     }
     .card-img-top{
         width: 45%;
+    }
+    .nav-link.active::after {
+        display: none;  
     }
       
 }
