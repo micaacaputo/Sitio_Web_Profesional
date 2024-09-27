@@ -40,7 +40,6 @@
 /*HOME*/
 .home{
     padding-top: 150px;
-    /* height: calc(100vh - 98px); */
 }
 .home-container{
     height: calc(100vh - 423px);

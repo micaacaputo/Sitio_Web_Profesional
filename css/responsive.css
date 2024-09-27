@@ -20,7 +20,7 @@
         padding: 30px;
     }
     .footer-margin{
-        margin-left: 200px;
+        margin-left: 250px;
     }
     .contenedor-centrado{
         min-height: calc(100vh - 217px);
@@ -36,8 +36,17 @@
     }
     .home-container{
         height: auto;
-        padding-bottom: 200px;
-      }
+        padding-bottom: 150px;
+    }
+    .img-home{
+        width: 25%;
+    }
+    .home{
+        padding-top: 120px;
+    }
+    .bg-general{
+        background-size: 250px, 250px;
+    }
   }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -73,7 +82,7 @@
         padding: 1rem 0;
     }
     .nosotros-title {
-        margin: 15px 0 15px 0;
+        margin: 15px 0;
     }
     .btn-contacto{
         padding: 10px 110px;
@@ -84,8 +93,20 @@
     }
     .home-container{
         height: auto;
-        padding-bottom: 260px;
-      }
+        padding-bottom: 255px;
+    }
+    .img-home{
+        width: 27%;
+    }
+    .img-footer{
+        width: 150px;
+    }
+    .home{
+        padding-top: 120px;
+    }
+    .bg-general{
+        background-size: 250px, 250px;
+    }
   }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -139,7 +160,13 @@
     .home-container{
         height: auto;
         padding-bottom: 180px;
-      }
+    }
+    .img-home{
+        width: 35%;
+    }
+    .home{
+        padding-top: 110px;
+    }
 }
 
 @media (max-width: 576px) {
