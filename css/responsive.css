@@ -25,7 +25,7 @@
     .contenedor-centrado{
         min-height: calc(100vh - 217px);
     }
-    .nosotros-title {
+    .titulo {
         margin: 15px 0 15px 0;
     }
     .card-custom{
@@ -39,7 +39,7 @@
         padding-bottom: 150px;
     }
     .img-home{
-        width: 25%;
+        width: 18%;
     }
     .home{
         padding-top: 120px;
@@ -81,7 +81,7 @@
     .card-custom{
         padding: 1rem 0;
     }
-    .nosotros-title {
+    .titulo {
         margin: 15px 0;
     }
     .btn-contacto{
@@ -132,7 +132,7 @@
     .card-size {
         padding: 10px;
     }
-    .nosotros-title {
+    .titulo {
         margin: 15px 0 15px 0;
     }
     .card-custom{
@@ -167,6 +167,9 @@
     .home{
         padding-top: 110px;
     }
+    .img-soporte{
+        width: 90%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -195,7 +198,7 @@
      .card-size {
         padding: 10px;
     }
-    .nosotros-title {
+    .titulo {
         margin: 10px 0 10px 0;
     }
     .card-custom{
@@ -226,6 +229,9 @@
     .home-container{
       height: auto;
       padding-bottom: 80px;
+    }
+    .img-soporte{
+        width: 100%;
     }
 }
   

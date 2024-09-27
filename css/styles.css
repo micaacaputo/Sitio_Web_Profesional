@@ -41,11 +41,14 @@
 .home{
     padding-top: 150px;
 }
+.color-azul{
+    color: #2C3E50;
+}
 .home-container{
-    height: calc(100vh - 423px);
+    height: calc(100vh - 375px);
 }
 .img-home{
-    width: 25%;
+    width: 18%;
 }
 .home-custom{
     margin: 0 170px;
@@ -74,10 +77,10 @@
     justify-content: center;
     align-items: center;
 }
-.nosotros {
+.secciones {
     padding-top: 80px;
 }
-.nosotros-title {
+.titulo {
     color: #2C3E50 ;
     margin: 40px 0px -20px 0px;
     font-weight: 700;
@@ -105,7 +108,10 @@
 .container-nosotros{
     padding: 0 200px;
 }
-
+/*SOPORTE*/
+.soporte{
+    margin-bottom: 40px;
+}
 /*CONTACTO*/
 
 .contacto-title{
