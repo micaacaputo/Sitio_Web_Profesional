@@ -33,6 +33,9 @@
 .img-navbar{
     margin-left: 15px;
  }
+.navbar-toggler{
+    background-color: #fff;
+}
 
 /*HOME*/
 .home{
@@ -45,10 +48,20 @@
 .home-custom{
     margin: 0 170px;
 }
+.btn {
+    background-color: #FF6B6B;
+    border-color: #FF6B6B;
+    width: 90%;
+    padding: 15px;
+}
+.btn:hover {
+    background-color: #FF8787;
+    border-color: #FF8787;
+}
 
 /*NOSOTROS*/
 .contenedor-centrado{
-    min-height: calc(100vh - 235px);
+    min-height: calc(100vh - 247px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,6 +96,12 @@
 
 .container-nosotros{
     padding: 0 200px;
+}
+
+/*CONTACTO*/
+
+.contacto-title{
+    margin: 100px;
 }
 
 /*FOOTER*/
