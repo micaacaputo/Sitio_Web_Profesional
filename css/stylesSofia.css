@@ -84,3 +84,17 @@ img.card-img-top {
     border-color: #2C3E50; 
     border-width: 7px;
 }
+footer {
+    background-color:#BDC3C7;
+}
+.img-footer{
+    width: 60%;
+    padding: 8px;
+    margin-top: 5px;
+}
+.footer-margin{
+    margin-left: 400px;
+}
+.navbar-toggler{
+    background-color: #fff;
+}
