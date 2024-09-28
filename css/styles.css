@@ -108,8 +108,106 @@
 .container-nosotros{
     padding: 0 200px;
 }
+/* SERVICIOS */
+
+.bg-general.servicios{
+    padding: 20px
+}
+
+section.servicios_main {
+    width: 1600px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.servicios_main h1 {
+    text-align: center;
+    color: #2C3E50;
+    font-weight: 700;
+}
+
+.card.info_service {
+    width: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-color: #2C3E50; 
+    border-width: 7px;
+}
+
+.card.info_service .card-body p, .card.info_service p.card-text, .card.info_service .card p{ 
+    text-align: justify;
+}
+
+.card.info_service .card-body{
+    padding: 30px!important;
+}
+
+.card.info_service span{
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.servicios_list{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 179px;
+    justify-content: center;
+}
+
+.servicios_list .card-body{
+    padding: 10px 0!important;
+}
+
+.servicios_list .card-body p, .servicios_list p.card-text, .servicios_list .card p{ 
+    text-align: justify;
+}
+
+.card.service{
+    padding: 20px;
+    flex: 0 1 calc(28% - 34px);
+    border-color: #C8E949; 
+    border-width: 7px;
+}
+
+img.card-img-top {
+    width: 360px;
+    height: 240px;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+.servicios_list.values{
+    width: 1600px;
+    padding-bottom: 100px;
+    gap: 80px;
+}
+
+.servicios_list.values .card-body p, .servicios_list.values p.card-text, .servicios_list.values .card p{ 
+    text-align: justify;
+}
+.servicios_list.values .card{
+    flex: 0 1 calc(50% - 40px);
+    padding: 30px 40px;
+    border-radius: 40px;
+    line-height: normal;
+    border-color: #2C3E50; 
+    border-width: 7px;
+}
+
+/*PORTAFOLIO*/
+.portafolio {
+    margin-bottom: 40px;
+}
+
+.img-en-construccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*SOPORTE*/
-.soporte{
+.titulo-margin{
     margin-bottom: 40px;
 }
 /*CONTACTO*/
