@@ -1,5 +1,5 @@
-/*RESPONSIVE HOME Y NOSOTROS*/
-@media (min-width: 1025px) and (max-width: 1561px) {
+/*RESPONSIVE*/
+ @media (min-width: 1025px) and (max-width: 1561px) {
     .container-nosotros {
         display: flex;
         justify-content: center;
@@ -234,3 +234,4 @@
         width: 100%;
     }
 }
+  
