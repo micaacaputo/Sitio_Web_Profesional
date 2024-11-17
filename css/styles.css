@@ -69,6 +69,17 @@
     background-color: #FF8787;
     border-color: #FF8787;
 }
+.btn-portolio {
+    background-color: #FF6B6B;
+    border-color: #FF6B6B;
+    color: #fff;
+}
+
+.btn-portolio:hover {
+    background-color: #FF8787;
+    border-color: #FF8787;
+    color: #fff;
+}
 
 /*NOSOTROS*/
 .contenedor-centrado{
